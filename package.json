@@ -1,7 +1,6 @@
 {
   "name": "spacex",
   "version": "0.1.0",
-  "homepage": "https://boubakrifedi.github.io/SpaceX",
   "private": true,
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
@@ -24,13 +23,12 @@
     "reactstrap": "^9.0.2",
     "styled-component": "^2.8.0",
     "styled-components": "^5.3.5",
+    "typescript": "^4.7.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "predeploy": "npm run build",git remote add origin https://github.com/{username}/{repo-name}.git
- "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
